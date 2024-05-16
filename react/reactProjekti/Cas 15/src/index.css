@@ -232,7 +232,7 @@ Cart Item
   color: var(--clr-grey-5);
 }
 .remove-btn {
-  color: var(--clr-primary);
+  color: var(--clr-red-dark);
   letter-spacing: var(--spacing);
   cursor: pointer;
   font-size: 0.85rem;
@@ -242,7 +242,7 @@ Cart Item
   transition: var(--transition);
 }
 .remove-btn:hover {
-  color: var(--clr-primary-light);
+  color: var(--clr-red-dark);
 }
 .amount-btn {
   width: 1.5rem;
