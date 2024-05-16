@@ -1,0 +1,61 @@
+/********************************** 
+             global
+ **********************************/
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  line-height: 1.4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: chartreuse;
+}
+p {
+  font-size: 21px;
+}
+/********************************** 
+             layout
+ **********************************/
+.container {
+  /* outline: 2px solid red; */
+  width: 900px;
+  margin: 0 auto;
+}
+.col-1-3 {
+  /* outline: 2px dashed blueviolet; */
+  width: 33.33%;
+  float: left;
+  padding: 0 10px;
+}
+section {
+  /* outline: 3px dotted rgb(175, 184, 50); */
+}
+main {
+  /* outline: 3px dotted rgb(12, 11, 10); */
+}
+/********************************** 
+           specificni
+ **********************************/
+/********************************** 
+             helper
+ **********************************/
+.clearfix ::before,
+.clearfix ::after {
+  content: ' ';
+  display: table;
+}
+.clearfix ::after {
+  clear: both;
+}

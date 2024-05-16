@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  background-image: url(../img/pattern.png);
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1500px;
+  outline: 1px solid red;
+  width: 100%;
+  margin: 100px auto;
+  height: 1500px;
+}
+
+/* RODITELJ: */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  /* ODREDJUJE KOJA JE GLAVNA OSA: */
+  height: 1500px;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 200px;
+  height: 100px;
+  flex-basis: 200px;
+  color: #fff;
+  font-size: 80px;
+}
+
+.one {
+  background: tomato;
+  /* align-self: flex-start; */
+  order: 5;
+}
+.two {
+  background: blueviolet;
+  /* align-self: flex-start; */
+  order: 6;
+}
+.three {
+  background-color: aqua;
+  /* align-self: flex-end; */
+  order: 3;
+}
+.four {
+  background-color: brown;
+  /* align-self: flex-start; */
+  order: 1;
+}

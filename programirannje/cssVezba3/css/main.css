@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-color: bisque;
+  outline: 2px solid black;
+  width: 960px;
+  height: 1000px;
+  margin: 0 auto;
+  padding: 1px;
+}
+.p3 {
+  color: rgb(49, 140, 226);
+  /* outline: 2px dashed green; */
+  height: 40px;
+  padding-top: 835px;
+}
+.p2 {
+  padding-left: 850px;
+  height: 40px;
+  width: 50px;
+  color: blueviolet;
+}
+.p1 {
+  height: 40px;
+  width: 50px;
+  padding-right: 850px;
+}

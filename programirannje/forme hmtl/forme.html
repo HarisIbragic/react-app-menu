@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>REGISTRACIJA</title>
+	</head>
+	<body>
+		<h1>REGISTARCIJA</h1>
+			
+			<form method="POST" action="poslato.html">
+				<div>
+					<label for="userName">Korisnicko ime: *</label>
+					<input type="text" name="userName" id="userName" required placeholder="Enter your name">
+				</div>
+				<div>
+					<label for="userPass">Lozinka: *</label>
+					<input type="password" name="userPass" id="userPass" required placeholder="Enter your password">
+				</div>
+				<div>
+					<label for="userEmail">E-mail: *</label>
+					<input type="Email" name="userEmail" id="userEmail" value="programiranje@gmail.com" disabled>
+				</div>
+				<div>
+					<label for="userCity">Mesto: *</label>
+						<select id="userCity" name="userCity">
+								<option value="1">NOVI PAZAR</option>
+								<option value="2">BEOGRAD</option>
+								<option value="3">NIS</option>
+								<option value="4" selected>NOVI SAD</option>
+						</select>
+				</div>
+				<div>
+					<label for="userSkills">Vestine: *</label>
+					<select name="userSkills" id="userSkills" multiple size="5">
+						<option value="1">HTML</option>
+						<option value="2">CSS</option>
+						<option value="3">JavaScript</option>
+						<option value="4">React</option>
+						<option value="5">NodeJS</option>
+					</select>
+				</div>
+				<div>
+					<p>Da li ste u radnom odnosu?</p>
+					<input type="radio" name="userJob" id="userJob">
+					<label for="userJob">DA</label>
+					<input type="radio" name="userJob" id="userJob">
+					<label for="userJob">NE</label>
+				</div>
+				<div>
+					<label for="userBio">Biografija</label>
+					<textarea id="userBio"></textarea>
+				</div>
+				<div>
+					<input type="checkbox" name="terms" id="terms">
+					<label for="terms">Prihvatam uslove koriscenja.</label>
+				</div>
+				
+				<button type="submit">Posalji</button>
+			</form>
+	</body>
+
+</html>

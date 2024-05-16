@@ -1,0 +1,79 @@
+{
+  // prof. Asmir JSON:
+
+  "files.autoSave": "off",
+  "editor.tabSize": 1,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 19,
+
+  //Prettier:
+  "prettier.arrowParens": "avoid",
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "expand",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.accessibilitySupport": "off",
+
+  "workbench.iconTheme": "vscode-icons",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  //Font
+  "editor.fontFamily": "'DejaVu Sans Mono'",
+  "editor.fontWeight": "450",
+  "editor.fontLigatures": true,
+
+  // TODO
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "VIDEO",
+      "color": "#333",
+      "backgroundColor": "#3498db"
+    },
+    {
+      "text": "FIXME",
+      "color": "#333",
+      "backgroundColor": "#e67e22"
+    },
+    {
+      "text": "LEC",
+      "color": "#333",
+      "backgroundColor": "#f1c40f"
+    },
+    {
+      "text": "BUG",
+      "color": "#333",
+      "backgroundColor": "#e74c3c"
+    },
+    {
+      "text": "TODO",
+      "color": "#333",
+      "backgroundColor": "#2ecc71"
+    }
+  ],
+  "workbench.startupEditor": "none",
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "editor.fontSize": 20,
+  "terminal.integrated.fontFamily": "monospace",
+  "task.problemMatchers.neverPrompt": false,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "Default Dark+"
+}

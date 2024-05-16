@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  outline: 2px solid black;
+  background-color: blanchedalmond;
+  height: 400px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container a {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  margin: 0 auto;
+  color: rgb(18, 18, 19);
+  background-color: rgb(204, 50, 50);
+  margin-top: 60px;
+  padding-top: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  outline: 2px solid black;
+}
+a:hover {
+  background-color: chartreuse;
+  text-decoration: underline;
+  outline: none;
+}

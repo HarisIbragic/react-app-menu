@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-color: bisque;
+  outline: 2px solid black;
+  width: 960px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.p3 {
+  outline: 1px solid rgb(9, 24, 230);
+  color: rgb(49, 140, 226);
+  height: 200px;
+  width: 400px;
+  padding: 10px;
+  margin-top: 220px;
+  margin-left: 560px;
+}
+.p2 {
+  outline: 1px solid red;
+  padding: 10px;
+  height: 200px;
+  width: 400px;
+  color: blueviolet;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+.p1 {
+  outline: 1px solid rgb(248, 10, 216);
+  height: 200px;
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 1px;
+}

@@ -1,0 +1,51 @@
+<!-- Osnovne komande: -->
+ <!-- dir/ls  -Da izlista sve foldere -->
+ <!-- clear/cls -Da ocisti prozor -->
+ <!-- cd imefoldera -Da udjete u neki folder  -->
+ <!-- cd .. -Da se vratite jedan korak unazad -->
+ <!-- git --version  -Da vidite koaja je trenutna verzija gita -->
+ <!--  "." -Predstavlja folder u kojem se nalazimo -->
+ <!-- mkdir/md - napravi direktorijum (folder) -->
+ <!-- rmdir/rd - izbrisi direktorijum -->
+ <!-- ni index.html, main.css, main.js  - Napravi nove fajlove -->
+ <!-- rm index.html, main.css, main.js  - Izbrisi fajlove-->
+ <!-- cat .\main.css  -Da vidim sta pise u nekom fajlu (main.css)-->
+ <!-- cp imefajla  -Kopiranje fajlova -->
+ <!-- write "<h1>Hello world</h1>" >.\index.html   -Da ubacimo podatke u nekom fajlu -->
+
+ <!-- Git konfiguracija -->
+ <!-- git config --list -Da izlista sva podesavanja -->
+ <!-- git config --global user.name "Semir Pljakic" -Da konfigurises ime,email,password u gitu-->
+ <!-- git config --global user.email "pljakicsemir@gmail.com"  --Email -->
+ <!-- git config user.name   -Ako te interesuje neki podatak iz kofiga npr (ime)-->
+ <!-- git help config - Da preuzmes u PDF-u sve komande (ako te interesuju) -->
+ <!-- git init - Da od nekog foldera(direktorijuma) napravi da bude git projekat i sam git da prati promene u ovom projektu -->
+ <!-- ls -Force  -Da mi prikaze sve skrivene foldere. Obicno svi skriveni folderi pocinju sa "." (tackom) -->
+ <!-- MODE: d--h-- (d-direktorijum, a-arhiva, h-hiden (skriven)) -->
+
+
+ <!-- Osnovne komande GIT:-->
+ <!-- git status -Obavestava sta se trenutno desava u nasem projektu -->
+ <!-- git add .  -Da dodamo sve trenutna desavanja-->
+ <!-- git commit -m"Prva promena"  -Da sacuvamo promene --->
+
+
+ <!-- Git Vim-->
+ <!-- git commit -m  -Idemo Esc, "i", Esc, :wq  -->
+
+
+ <!-- Git log -->
+ <!-- git log  -Prikazuje sve promene koje smo radili na nasem projektu -->
+ <!-- git log -1  -Zelim da vidim jedan komit i to poslednji -->
+ <!-- git log -p  -Ako zelim da vidim promene koje su nastale pri samim komitovima  -->
+ <!-- git log --pretty=oneline  -zelim da mi se prikazu informacije u jednoj liniji -->
+
+
+ <!-- Git branching (grane) -->
+ <!-- git branch imegrane  -Kreiranje nove grane-->
+ <!-- git checkout imegrane  -Da promenimo granu -->
+ <!-- git branch -D imegrane  -Da izbrises granu  -->
+
+
+ <!-- Git merge -->
+ <!-- git merge imegrane  -Da spojimo grane -->

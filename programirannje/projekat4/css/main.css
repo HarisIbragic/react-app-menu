@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #eef2f9;
+  font-size: 17px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  line-height: 1.3;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+p {
+  color: #1c1b49;
+}
+.container {
+  /* outline: 1px solid red; */
+  width: 700px;
+  height: 450px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(28, 27, 73, 0.3);
+  /* text-align: center; */
+  padding: 55px;
+}
+.col-1-2 {
+  width: 50%;
+}
+
+.col-1-2 {
+  float: left;
+  /* outline: 1px solid red; */
+}
+.col-1-2.first {
+  margin-top: 10px;
+}
+.col-1-2.first img {
+  width: 400px;
+  height: 170px;
+  margin-left: 20px;
+  padding-right: 170px;
+}
+
+.p1 {
+  font-size: 11px;
+  line-height: 1.2;
+}
+.p1 a {
+  display: block;
+  width: 100px;
+  height: 20px;
+  padding: 3px 15px;
+  border-radius: 10px;
+  background-color: #1c1b49;
+  color: #fff;
+  /* outline: 1px solid red; */
+}
+.p2 {
+  font-size: 17px;
+  font-weight: 700;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 27px;
+}
+.p3 {
+  font-size: 10px;
+}
+.p3 span.jedan {
+  font-size: 12px;
+  text-decoration: line-through;
+  font-weight: 800;
+}
+.p3 span.dva {
+  font-size: 30px;
+  font-weight: 800;
+}
+.p4 {
+  font-size: 10px;
+  color: #adadbd;
+  margin-bottom: 20px;
+}
+.link1 {
+  width: 295px;
+  height: 40px;
+  border-radius: 5px;
+
+  display: block;
+  /* outline: 1px solid blue; */
+  background-color: #4787e9;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 11px;
+  margin-bottom: 19px;
+}
+.link1:hover {
+  box-shadow: 0 5px rgb(28, 87, 238);
+}
+.p5 {
+  color: #070707;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.link2 {
+  display: block;
+  width: 140px;
+  height: 40px;
+  outline: 1px solid #d6d6e3;
+  color: #201f4c;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 11px;
+  font-size: 13px;
+  font-weight: 800;
+}
+article.second {
+  position: relative;
+}
+.link3 {
+  position: absolute;
+  top: 263px;
+  left: 150px;
+  display: block;
+  width: 140px;
+  height: 40px;
+  outline: 1px solid #d6d6e3;
+  color: #201f4c;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 11px;
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.col-1-2.second {
+  margin-top: 10px;
+  padding-right: 50px;
+  float: left;
+  height: 380px;
+}
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

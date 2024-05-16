@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.4;
+  background-color: #dee1e7;
+}
+
+h3 {
+  font-size: 13px;
+}
+.svetlo-plava {
+  height: 100%;
+  width: 100px;
+  background-color: #d1d7e6;
+  margin: 0 auto;
+  position: absolute;
+  left: 950px;
+  top: 100px;
+}
+
+.container {
+  /* outline: 1px solid red; */
+  width: 500px;
+  margin: 100px auto;
+  position: relative;
+}
+.prvi {
+  /* outline: 1px solid blue; */
+  background-color: #f9fafe;
+  padding: 50px 55px 60px;
+  font-size: 13px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px rgba(69, 69, 214, 0.223);
+  z-index: 1;
+}
+.prvi h2 {
+  font-size: 16px;
+  margin: 8px 0;
+}
+.rezultat {
+  font-size: 32px;
+  font-weight: 700;
+}
+.zajedno {
+  display: flex;
+  gap: 20px;
+  /* justify-content: center; */
+  align-items: center;
+}
+.zelena {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 22px;
+  width: 55px;
+  color: #1caaaa;
+  background-color: #e0f5fc;
+  font-weight: 700;
+}
+.zelena img {
+  width: 11px;
+}
+
+.boje {
+  display: flex;
+  height: 9px;
+  /* outline: 1px solid #fff; */
+  border-radius: 20px;
+  margin: 30px 0;
+}
+.crvena {
+  background-color: #f67a7a;
+  width: 20%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.narandzasta {
+  background-color: #f6b67a;
+  width: 60%;
+  /* border-radius: 20px; */
+}
+.lila {
+  background-color: #a27af6;
+  width: 20%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.IET {
+  display: flex;
+  gap: 70px;
+}
+.income {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.expenses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.transaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.IET .crvena {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.IET .narandzasta {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.IET .lila {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.drugi {
+  background-color: #f9fafe;
+  padding: 40px;
+  font-size: 13px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px rgba(69, 69, 214, 0.223);
+  z-index: 2;
+  /* position: absolute; */
+  left: -290px;
+  top: 250px;
+}
+.drugi section {
+  display: flex;
+  justify-content: space-between;
+}
+.drugi section article {
+  /* outline: 1px solid red; */
+  width: 127px;
+  box-shadow: 5px 5px 15px rgba(89, 89, 116, 0.223);
+  border-radius: 10px;
+  padding: 20px;
+}
+.drugi section article img {
+  width: 17px;
+}
+
+.kocka {
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.arow {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+.brojevi {
+  font-size: 20px;
+  font-weight: 600;
+}
+.treci {
+  width: 300px;
+  /* height: 300px; */
+  background-color: #f9fafe;
+  padding: 40px;
+  font-size: 13px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px rgba(69, 69, 214, 0.223);
+  z-index: 3;
+}
+.treci article {
+  /* outline: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+.sve {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.sve p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+.treci img {
+  width: 15px;
+  display: flex;
+}
+.krug1 {
+  /* outline: 1px solid red; */
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf0e4;
+}
+.krug2 {
+  /* outline: 1px solid red; */
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0f5fc;
+}
+.krug3 {
+  /* outline: 1px solid red; */
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9e0e4;
+}
+.kruzic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.artikli {
+  padding: 10px;
+}
+.artikli:hover {
+  box-shadow: 5px 5px 15px rgba(89, 89, 116, 0.223);
+  border-radius: 10px;
+}
+.artikal1 {
+  box-shadow: 5px 5px 15px rgba(89, 89, 116, 0.223);
+  border-radius: 10px;
+}

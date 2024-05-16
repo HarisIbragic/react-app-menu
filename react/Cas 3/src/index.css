@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: #f1f5f8;
+  color: #222;
+}
+
+h2 {
+  color: red;
+}
+
+/* Stilizovali sve bookliste (nase knjige) */
+.carlist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+/* Napravili okvir za artikle */
+.car {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+.car h2 {
+  margin-top: 0.5rem;
+}
+
+.car h5 {
+  color: #617d98;
+  font-size: 1.45rem;
+  margin-top: 0.25rem;
+  letter-spacing: 7px;
+}
+
+.car p {
+  margin-top: 0.5em;
+}
+
+/* @media screen and (min-width: 200px) {
+  .carlist {
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */
+@media screen and (min-width: 500px) {
+  .carlist {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 992px) {
+  .carlist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .carlist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

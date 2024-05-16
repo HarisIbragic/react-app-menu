@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+	<head>
+		<title>Gradivni elementi</title>
+		<meta content="author" name="Semin Zoranić">
+		<meta content="description" name="160 karaktera za web">
+		<meta content="viewport" name="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatibile" content="ie=edge">
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="main.css">
+	</head>
+	
+	<body>
+		<!--Container-->
+		<div>
+			<!--Main Header-->
+			<header>
+				<h1><a href="#"><img src="img/high-five/high-five-logo.png" alt="Logo sajta"></a></h1>
+				<nav>
+					<ul>
+						<li><a href="gradivni-elementi.html">Početna</a></li>
+						<li><a href="#">O nama</a></li>
+						<li><a href="#">Novosti</a></li>
+						<li><a href="#">Galerija</a></li>
+						<li><a href="#">Kontakt</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!--Main Header END-->
+			
+			<main>
+				<!--Article-->
+				<article>
+					<img src="img/high-five/planiraj-kada-kodiras.jpg" alt="Planiraj kada kodiras">
+					<h2>Naslov Teksta</h2>
+					<p>Proin turpis quam, molestie iaculis dapibus et, cursus id ligula. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc aliquam viverra commodo. Suspendisse scelerisque tortor vitae imperdiet tristique. Pellentesque convallis venenatis tempus. Fusce placerat sapien non faucibus tincidunt. Vivamus tempor mi hendrerit, imperdiet metus eu, faucibus augue. Vestibulum egestas, nulla non sagittis fringilla, turpis leo molestie est, quis pulvinar augue eros eu diam. Suspendisse et rhoncus velit, vitae venenatis enim.</p>
+				</article>
+				<!--Article END-->
+				
+				<!--Section-->
+				<section>
+					<header>	
+						<h2>Poslednje vesti</h2>
+					</header>
+					
+					<!--Article Jedan-->
+					<article>
+						<header>	
+							<a href="#"><h3>Naslov prve vesti</h3></a>
+							<time datetime="2016-04-12">12. april 2016.</time>
+						</header>
+						<p>Nunc aliquam viverra commodo. Suspendisse scelerisque tortor vitae imperdiet tristique. Pellentesque convallis</p>
+					</article>
+					<!--Article Jedan END-->
+
+					<!--Article Dva-->
+					<article>
+					<header>
+						<a href="#"><h3>Naslov druge vesti</h3></a>
+						<time datetime="2012-03-22">22. Mart 2012.</time>
+						<p>Nunc aliquam viverra commodo. Suspendisse scelerisque tortor vitae imperdiet tristique. Pellentesque convallis</p>
+					</header>
+					</article>
+				<!--Article Dva END-->
+				
+				<!--Sidebar-->
+				<div>
+				
+					<a href="gradivni-elementi.html" target="_blank"><img src="img/high-five/baner-1.png" alt="Banner Broj 1"></a>
+					<a href="#" target="_blank"><img src="img/high-five/baner-2.png" alt="Banner Broj 2"></a>
+					<section>
+						<h2>Pratite nas</h2>
+						<ul>
+							<li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+							<li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+							<li><a href="https://www.pinterest.com" target="_blank">Pinterest</a></li>
+						<ul>
+					</section>
+				</div>
+				<!--Sidebar END-->
+				
+				
+				</section>
+				<!--Section END-->
+				
+			</main>
+			
+			<!--Main Footer-->
+			<footer>
+				<small>&raquo; &copy;</small>
+			</footer>
+			<!--Main Footer END-->
+			
+			
+		</div>
+		<!--Container END-->	
+	</body>
+</html>

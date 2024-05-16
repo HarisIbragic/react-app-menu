@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f4ff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+  color: #1d275b;
+}
+a {
+  text-decoration: none;
+  color: #1d275b;
+}
+
+.container {
+  /* outline: 1px solid red; */
+  width: 300px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 30px 20px 40px;
+  scale: 1.2;
+  transition: 0.5s scale ease-in-out;
+}
+
+.container:hover {
+  scale: 1.4;
+  box-shadow: 5px 5px 10px rgba(29, 39, 91, 0.3);
+}
+
+.line {
+  outline: 1px solid rgba(27, 37, 90, 0.2);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  transition: 0.5s scale ease-in-out;
+}
+.line:hover {
+  scale: 1.2;
+}
+.basic {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 11px;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.title .number {
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: 17px;
+}
+.kr {
+  position: absolute;
+  top: 10px;
+  left: 97px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+ul li a {
+  /* xD a ne trpi SIRINU I VISINU i ne moze da se radi 'scale' */
+  display: block;
+  font-size: 17px;
+  outline: 1px solid rgba(128, 145, 208, 0.5);
+  border-radius: 9px;
+  padding: 6px 8px;
+  transition: 0.3s scale ease-in-out;
+}
+
+ul li a:focus {
+  background-color: #1d275b;
+  color: #fff;
+}
+ul li a:hover {
+  background-color: #1d275b;
+  color: #fff;
+  scale: 1.3;
+}
+
+.price {
+  margin-bottom: 15px;
+}
+.downloads {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.subs {
+  outline: 1px solid rgba(128, 145, 208, 0.5);
+  display: block;
+  width: 220px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.subs:hover {
+  background-color: #1d275b;
+  color: #fff;
+  box-shadow: 5px 5px 10px rgba(29, 39, 91, 0.3);
+}
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

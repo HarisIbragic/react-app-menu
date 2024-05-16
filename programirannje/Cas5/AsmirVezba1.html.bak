@@ -1,0 +1,80 @@
+<DOCTYPE html>
+<html lang="sr">
+
+	<head>
+		<title>Semir Vezba 1</title>
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<div>
+			<!-- Main Header-->
+			<header>
+				<a href="#"><img src="img/high-five/high-five-logo.png" alt="High Five logo"></a>
+				<nav>
+					<ul>
+						<li><a href="#">Početna</a></li>
+						<li><a href="#">O nama</a></li>
+						<li><a href="#">Novosti</a></li>
+						<li><a href="#">Galerija</a></li>
+						<li><a href="#">Kontakt</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- Main Header END-->
+			
+			<Main>
+				
+				<article>
+					<img src="img/high-five/planiraj-kada-kodiras.jpg" alt=" Planiraj kada kodrias.">
+					<h2>Naslov teksta</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus et augue id gravida. Nam sed hendrerit est. Etiam sed faucibus lectus, quis dignissim sapien. Donec ut imperdiet mi. Donec feugiat lectus non lectus posuere, a blandit nisi tempus. Quisque iaculis ligula faucibus leo hendrerit, eget gravida lacus fringilla. Curabitur quis dapibus odio. Etiam et bibendum risus. Aenean vehicula magna non lorem auctor, non feugiat odio malesuada. Nulla in ex pulvinar, eleifend nisl vel, blandit leo. Duis efficitur nibh enim, sed pretium nulla auctor sit amet.</p>
+				</article>
+				
+				<section>
+					<h2>Poslednje vesti</h2>
+					
+					<article>
+						<header>
+							<h3><a href="#">Naslov prve vesti</a></h3>
+							<time datetime="2016-04-12">12. april 2016.</time>
+						</header>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus et augue id gravida. Nam sed hendrerit est. Etiam sed faucibus lectus, quis dignissim sapien. Donec ut imperdiet mi. Donec feugiat lectus non lectus posuere, a blandit nisi tempus. Quisque iaculis ligula faucibus leo hendrerit, eget gravida lacus fringilla. Curabitur quis dapibus odio. Etiam et bibendum risus. Aenean vehicula magna non lorem auctor, non feugiat odio malesuada. Nulla in ex pulvinar, eleifend nisl vel, blandit leo. Duis efficitur nibh enim, sed pretium nulla auctor sit amet.</p>
+					</article>
+					
+					<article>
+						<header>
+							<h3><a href="#">Naslov druge vesti</a></h3>
+							<time datetime="2016-04-10">10. april 2016.</time>
+						</header>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus et augue id gravida. Nam sed hendrerit est. Etiam sed faucibus lectus, quis dignissim sapien. Donec ut imperdiet mi. Donec feugiat lectus non lectus posuere, a blandit nisi tempus. Quisque iaculis ligula faucibus leo hendrerit, eget gravida lacus fringilla. Curabitur quis dapibus odio. Etiam et bibendum risus. Aenean vehicula magna non lorem auctor, non feugiat odio malesuada. Nulla in ex pulvinar, eleifend nisl vel, blandit leo. Duis efficitur nibh enim, sed pretium nulla auctor sit amet.</p>
+					</article>
+					
+				</section>
+			</Main>
+			
+			<!-- SideBar-->
+			<div>
+				<a href="#" target="_blank"><img src="img/high-five/baner-1.png" alt="Baner 1"></a>
+				<a href="#" target="_blank"><img src="img/high-five/baner-2.png" alt="Baner 2"></a>
+				<!-- Social Networks-->
+				<section>
+					<h3>Pratite nas</h3>
+					<ul>
+						<li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+						<li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+						<li><a href="https://pinterest.com" target="_blank">Pinterest</a></li>
+					</ul>
+				</section>
+				<!-- Social Networks END-->
+			</div>
+			<!-- SideBar END-->
+			
+			<!--Footer -->
+			<footer>
+				<small>&copy; 2016 High Five. Sva prava zadržana.</small>
+			</footer>
+			<!-- Footer END-->	
+		</div>
+	</body>
+</html>

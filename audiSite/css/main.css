@@ -1,0 +1,760 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 100;
+}
+.malaSlova {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+/******************************************************************************************************************************
+                                                header
+*****************************************************************************************************************************/
+
+header a {
+  color: black;
+  font-size: 16px;
+}
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 90px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.zajedno {
+  display: flex;
+  gap: 350px;
+}
+.lupa {
+  display: flex;
+  gap: 15px;
+  border-right: 1px solid black;
+}
+.lupa p {
+  padding: 0 15px 0 0;
+}
+.lupa img {
+  width: 20px;
+}
+.zastava {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.zastava img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.region p {
+  font-size: 14px;
+}
+.region .p1 {
+  color: #b5b9c2;
+}
+
+/******************************************************************************************************************************
+                                                          main
+*****************************************************************************************************************************/
+.main {
+  margin: 0 auto;
+}
+.slika {
+  position: relative;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 150px;
+}
+.slika h4 {
+  font-size: 80px;
+  font-weight: 300;
+}
+.audi1 img {
+  width: 100%;
+}
+.audi1 {
+  transition: 0.7s scale ease-in-out;
+}
+.audi1:hover {
+  scale: 1.2;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  gap: 15px;
+  top: 50%;
+  left: 50%;
+}
+.readMore {
+  outline: 1px solid white;
+  padding: 15px 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.readMore a {
+  color: #fff;
+  font-size: 16px;
+}
+.naslovSekcije {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+/* OVDE SAM PREMESTIO SECTION1 dole u responsive i treba sve sekcije da premestimo i da ih odradimo u responsive :D */
+
+.section1 article img {
+  max-width: 100%;
+}
+
+.section2 article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* padding: 0 330px; */
+  gap: 3px;
+  margin-bottom: 250px;
+}
+.section2 h4 {
+  margin-bottom: 40px;
+}
+/* .section2 article img {
+  max-width: 100%;
+} */
+.section2 article .col {
+}
+.section2 .kockaLink {
+  margin-top: 40px;
+}
+.kockaLink a {
+  outline: 1px solid black;
+  padding: 12px 80px;
+  color: black;
+}
+.section3 article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* padding: 0 330px; */
+  gap: 3px;
+  margin-bottom: 250px;
+}
+.section3 h4 {
+  margin-bottom: 40px;
+}
+.section3 .kockaLink {
+  margin-top: 40px;
+}
+/* .section3 article img {
+  max-width: 100%;
+} */
+.section3 article .col {
+  width: 50%;
+}
+.WIP {
+  margin-left: 20px;
+}
+.section4 {
+  display: flex;
+  /* padding: 0 330px; */
+  gap: 3px;
+  margin-bottom: 100px;
+}
+.section4 article img {
+  max-width: 100%;
+}
+
+.section5 article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 330px; */
+  gap: 3px;
+  margin-bottom: 100px;
+}
+.section5 h4 {
+  margin-bottom: 40px;
+}
+.section5 .kockaLink {
+  margin-top: 40px;
+}
+.audi10Text {
+  margin-left: 20px;
+}
+.media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.mediaCentar a {
+  outline: 1px solid black;
+  background-color: black;
+  padding: 15px 50px;
+  color: #fff;
+}
+/******************************************************************************************************************************
+                                                          footer
+*****************************************************************************************************************************/
+footer {
+  background-color: black;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+footer img {
+  width: 30px;
+}
+.footerLinks {
+  /* padding-left: 350px; */
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+.footerLinks a {
+  font-size: 13px;
+}
+.drustveneMreze {
+  display: flex;
+  gap: 50px;
+  flex-direction: row-reverse;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.topics ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.audiAg {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.audiAg ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.services ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/******************************************************************************************************************************
+                                                          responziv
+*****************************************************************************************************************************/
+
+@media all and (min-width: 350px) {
+  .container {
+    width: 340px;
+
+    margin: 0 auto;
+  }
+  .headerNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .zajedno {
+    display: none;
+  }
+  .text {
+    position: relative;
+
+    display: flex;
+    top: 70%;
+  }
+
+  .text h4 {
+    font-size: 1rem;
+  }
+  .text p {
+    font-size: 1rem;
+  }
+
+  .text p {
+    color: black;
+  }
+
+  .readMore {
+    position: absolute;
+    top: 50%;
+  }
+  .readMore {
+    outline: 1px solid rgb(7, 7, 7);
+    padding: 15px 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .readMore a {
+    color: black;
+  }
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 40px;
+  }
+  .section2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: -20%;
+  }
+  .section2 img {
+    width: 100%;
+  }
+  .section2 .col .audiA5text {
+    margin-top: -30%;
+  }
+  .col {
+    flex: 1 1 100%;
+  }
+  .section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  .section3 img {
+    width: 100%;
+  }
+  .section3 .col .WIP {
+    margin-top: -30%;
+  }
+  .col {
+    flex: 1 1 100%;
+  }
+  .section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 40px;
+  }
+  .col {
+    flex: 1 1 100%;
+  }
+  .section5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .section5 img {
+    width: 100%;
+  }
+  .section3 .col .WIP {
+    margin-top: -30%;
+  }
+  .col {
+    flex: 1 1 100%;
+  }
+}
+@media all and (min-width: 768px) {
+  .container {
+    width: 748px;
+
+    margin: 0 auto;
+  }
+  .headerNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .zajedno {
+    display: flex;
+  }
+  .slika {
+    position: relative;
+  }
+  .text {
+    position: absolute;
+
+    display: flex;
+    top: 50%;
+  }
+
+  .text h4 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .text p {
+    font-size: 1.5rem;
+  }
+
+  .text p {
+    color: #fff;
+  }
+
+  .readMore {
+    outline: 1px solid white;
+    padding: 15px 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+  }
+  .readMore a {
+    color: #fff;
+  }
+
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 40px;
+  }
+  .section1 .col {
+    flex: 1 1 33.33%;
+  }
+  .section2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: -20%;
+  }
+  .section2 img {
+    width: 100%;
+  }
+  .section2 .col .audiA5text {
+    margin-top: -30%;
+  }
+  .col {
+    flex: 1 1 100%;
+  }
+  .section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+  .section3 img {
+    width: 100%;
+  }
+  .section3 .col .WIP {
+    margin-top: -30%;
+  }
+  .col {
+    flex: 1 1 100%;
+  }
+  .section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 40px;
+  }
+  .section4 .col {
+    flex: 1 1 33.33%;
+  }
+  .section5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .section5 img {
+    width: 100%;
+  }
+  .section3 .col .WIP {
+    margin-top: -30%;
+  }
+  .col {
+    flex: 1 1 100%;
+  }
+}
+@media all and (min-width: 992px) {
+  .container {
+    width: 972px;
+
+    margin: 0 auto;
+  }
+  .text {
+    display: flex;
+    top: 50%;
+  }
+  .slika {
+    position: relative;
+  }
+  .text {
+    position: absolute;
+
+    display: flex;
+    top: 50%;
+  }
+
+  .text h4 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .text p {
+    font-size: 1.5rem;
+  }
+
+  .text p {
+    color: #fff;
+  }
+
+  .readMore {
+    outline: 1px solid white;
+    padding: 15px 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+  }
+  .readMore a {
+    color: #fff;
+  }
+
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 3px;
+  }
+  .section1 .col {
+    flex: 1 1 20%;
+  }
+  .section2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 20%;
+  }
+  .section2 img {
+    width: 100%;
+  }
+  .section2 .col .audiA5text {
+    margin-top: 0;
+  }
+  .col {
+    flex: 1 1 50%;
+  }
+  .section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  /* .section3 img {
+    width: 100%;
+  } */
+  .section3 .col .WIP {
+    margin-top: 5%;
+  }
+  .col {
+    flex: 1 1 50%;
+  }
+  .section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 3px;
+  }
+  .section4 .col {
+    flex: 1 1 20%;
+  }
+  .section5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  /* .section5 img {
+    width: 100%;
+  } */
+  /* .section3 .col .WIP {
+    margin-top: -30%;
+  } */
+  .col {
+    flex: 1 1 50%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .container {
+    width: 1180px;
+
+    margin: 0 auto;
+  }
+  .slika {
+    position: relative;
+  }
+  .text {
+    position: absolute;
+
+    display: flex;
+    top: 40%;
+  }
+
+  .text h4 {
+    font-size: 5rem;
+    font-weight: 500;
+  }
+  .text p {
+    font-size: 1.6rem;
+  }
+
+  .text p {
+    color: #fff;
+  }
+
+  .readMore {
+    outline: 1px solid white;
+    padding: 15px 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 19%;
+  }
+  .readMore a {
+    color: #fff;
+  }
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 3px;
+  }
+  .section1 .col {
+    flex: 1 1 20%;
+  }
+  .section2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 20%;
+  }
+  .section2 img {
+    width: 100%;
+  }
+  .section2 .col .audiA5text {
+    margin-top: 0;
+  }
+  .col {
+    flex: 1 1 50%;
+  }
+  .section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  /* .section3 img {
+    width: 100%;
+  } */
+  .section3 .col .WIP {
+    margin-top: 5%;
+  }
+  .col {
+    flex: 1 1 50%;
+  }
+  .section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 3px;
+  }
+  .section4 .col {
+    flex: 1 1 20%;
+  }
+  .section5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  /* .section5 img {
+    width: 100%;
+  } */
+  /* .section3 .col .WIP {
+    margin-top: -30%;
+  } */
+  .col {
+    flex: 1 1 50%;
+  }
+}
+
+/******************************************************************************************************************************
+                                                          helper
+*****************************************************************************************************************************/
+
+.list-reset {
+  list-style: none;
+}
