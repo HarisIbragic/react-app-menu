@@ -52,7 +52,7 @@ function App() {
   };
 
   useEffect(() => {
-    getPersona();
+    getPerson();
   }, []);
 
   const handleValue = e => {
