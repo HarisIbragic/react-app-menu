@@ -24,7 +24,6 @@ const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
-  REAC;
 
   const fetchStories = async url => {
     dispatch({ type: SET_LOADING });
