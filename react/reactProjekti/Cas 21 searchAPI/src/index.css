@@ -208,11 +208,11 @@ Spinner
 .spinner-container {
   position: relative;
 }
-@keyframes spinner {
+/* @keyframes spinner {
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .loading {
   width: 6rem;
